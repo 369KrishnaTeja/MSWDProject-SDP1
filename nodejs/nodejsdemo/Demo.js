@@ -1,0 +1,15 @@
+var http=require('http')
+http.createServer(function(req,res)
+{
+    res.write("<html>")
+    res.write("<head>")
+    res.write("<title>node js</title>")
+    res.write("</head>")
+    res.write("<body>")
+    res.write("<b>Hello MSWD S9, we are going to KILL Node JS</b><br>")
+    res.write("<font color='red'>MSWD S9 Section</font><br>")
+    res.write("<mark>MERN STACK WEB DEVELOPMENT</mark>")
+    res.write("</body>")
+    res.write("</html>")
+    res.end()
+}).listen(2021) // we are going to access this web server by using a port number

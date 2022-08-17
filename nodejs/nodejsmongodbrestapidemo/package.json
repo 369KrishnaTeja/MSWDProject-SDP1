@@ -1,0 +1,28 @@
+{
+  "name": "nodejsmongodbrestapidemo",
+  "version": "1.0.0",
+  "description": "nodejs, mongodb, REST API, express to perform CRUD Operations",
+  "main": "Server.js",
+  "scripts": {
+    "start": "nodemon Server"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "REST",
+    "API",
+    "nodemon",
+    "mongoose",
+    "express"
+  ],
+  "author": "K Krishna Teja",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  }
+}
